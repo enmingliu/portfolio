@@ -22,7 +22,10 @@ const Wrapper = bstyled.div`
 	background-image: url('../illustrations/overlay.svg');
 	background-size: 40%;
 	background-position: right top;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  @media (max-width: 960px) {
+    background-image: none;
+  }
 `
 
 const FooterWrapper = bstyled.div`
@@ -74,7 +77,6 @@ const FooterDetails = bstyled.div`
 
 const IntroWrapper = bstyled.div`
   padding: 0;
-  padding-bottom: 10rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -111,14 +113,16 @@ const Details = bstyled.div`
 const Thumbnail = bstyled.div`
 	flex: 1;
 	@media (max-width: 960px) {
-		width: 100%;
+    visibility: hidden;
+    max-height: 0%;
+    display: none;
 	}
 	img {
 		width: 100%;
 	}
 	svg {
 		width: 100%;
-		max-height: 600px;
+		max-height: 400px;
 	}
 `
 
@@ -136,9 +140,10 @@ const Container = bstyled.div`
 
 // margin-bottom: 6em;  
 const Hero = styled("div")`
-    padding-top: 2.5em;
-    padding-bottom: 3em;
+    padding-top: 4em;
+    padding-bottom: 0em;
     @media(max-width:${dimensions.maxwidthMobile}px) {
+      padding-top: 1.5em;
       margin-bottom: 3em;
     }
     max-width: 830px;

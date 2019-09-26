@@ -9,10 +9,11 @@ const Layout = ({ data, children }) => (
   <div>
     <GlobalStyle />
     <Head />
-    <Header title={data.site.siteMetadata.siteTitle} />
+    
     {children}
   </div>
 );
+//<Header title={data.site.siteMetadata.siteTitle} />
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

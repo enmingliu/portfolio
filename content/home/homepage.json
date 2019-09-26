@@ -2,18 +2,33 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
+    "link": "http://www.google.com",
     "title": "React Context",
     "copy": "For global styles.",
     "image": "../images/gallery/react-context.jpg"
   },
   {
+    "link": "google.com",
     "title": "Page Transitions",
     "copy": "Component-based for easy usage.",
     "image": "../images/gallery/page-transitions.jpg"
   },
   {
+    "link": "google.com",
     "title": "Intersection Observer",
     "copy": "Including a polyfill for Safari.",
     "image": "../images/gallery/intersection-observer.jpg"
+  },
+  {
+    "link": "http://www.google.com",
+    "title": "React Context",
+    "copy": "For global styles.",
+    "image": "../images/gallery/react-context.jpg"
+  },
+  {
+    "link": "http://www.google.com",
+    "title": "React Context",
+    "copy": "For global styles.",
+    "image": "../images/gallery/react-context.jpg"
   }]
 }

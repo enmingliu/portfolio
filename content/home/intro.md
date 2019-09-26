@@ -1,2 +1,3 @@
-An opinionated starter for using Gatsby v2 with React Context, tag-agnostic styled-components, page transitions and scroll events with IntersectionObserver.
-Hi, I'm Bill! I'm a computer science student at UCLA!
+Hi, I'm Bill! I'm an undergraduate student at [UCLA](http://www.ucla.edu/) studying [Computer Science](https://www.cs.ucla.edu/). I'm also a software engineering 
+intern at [InTouch Health](https://intouchhealth.com/) and an iOS developer for UCLA-based startup [Radius](https://apps.apple.com/us/app/id1473404027). This 
+website is built with [Gatsby](https://www.gatsbyjs.org/) and is deployed with [Netlify](https://www.netlify.com/). Check out some of my projects below!

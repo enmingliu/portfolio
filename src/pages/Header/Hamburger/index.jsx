@@ -1,5 +1,4 @@
 import React from 'react'
-import { Wrapper, Bar } from './styles'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`

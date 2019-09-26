@@ -15,7 +15,7 @@ import dimensions from "styles/dimensions";
 import bstyled from 'styled-components';
 import Cr from '../images/cr.svg';
 import social from './social.json';
-//import { Header } from './Header';
+import SimpleHeader from './Header/index';
 
 const Wrapper = bstyled.div`
 	padding-bottom: 4rem;
@@ -194,7 +194,7 @@ const Footer = () => (
 const Index = ({ data }) => (
   <Layout>
     <Wrapper>
-      
+      <SimpleHeader />
       <IntroWrapper as={Container}>
         <Details>
           <Title as="h2" size="large">

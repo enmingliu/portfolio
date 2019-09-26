@@ -2,33 +2,27 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "link": "http://www.google.com",
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "link": "https://devpost.com/software/health-on-a-cloud",
+    "title": "Health on a Cloud",
+    "copy": "Safety-and-security-first TeleHealth provider app packed with powerful ML analytic tools and WebSockets for live communication",
+    "image": "../images/gallery/healthonacloud.jpg"
   },
   {
-    "link": "google.com",
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "link": "https://devpost.com/software/sincerely-ai",
+    "title": "Sincerely, AI",
+    "copy": "Deep Learning for Classification of Insincere Text",
+    "image": "../images/gallery/sincerelyai.jpg"
   },
   {
-    "link": "google.com",
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "link": "https://devpost.com/software/deephole",
+    "title": "DeepHole",
+    "copy": "A crowdsourced data platform for damaged infrastructure",
+    "image": "../images/gallery/deephole.jpg"
   },
   {
-    "link": "http://www.google.com",
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
-  },
-  {
-    "link": "http://www.google.com",
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "link": "https://devpost.com/software/up2date",
+    "title": "Up2Date",
+    "copy": "A quick and easy way to stay up to date on relevant news",
+    "image": "../images/gallery/uptodate.jpg"
   }]
 }

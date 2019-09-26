@@ -73,7 +73,8 @@ const FooterDetails = bstyled.div`
 `
 
 const IntroWrapper = bstyled.div`
-	padding: 0;
+  padding: 0;
+  padding-bottom: 10rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -207,10 +208,8 @@ const Index = ({ data }) => (
       </IntroWrapper>
 
       <Gallery items={data.homeJson.gallery} />
+
     </Wrapper>
-    
-    
-    <div style={{ height: '20vh' }} />
     <Footer />
   </Layout>
 );

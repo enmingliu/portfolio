@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import NavbarLinks from '../NavbarLinks'
+import NavbarLinks from '../NavbarLinks/index'
 import bstyled from 'styled-components';
 
 const Wrapper = bstyled.div`

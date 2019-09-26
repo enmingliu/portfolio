@@ -11,11 +11,115 @@ import marked from 'marked';
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import dimensions from "styles/dimensions";
-import { Wrapper, IntroWrapper, Details, Thumbnail, FooterWrapper, Flex, Links, FooterDetails } from './styles';
+//import { Wrapper, IntroWrapper, Details, Thumbnail, FooterWrapper, Flex, Links, FooterDetails } from './styles';
 import bstyled from 'styled-components';
 import Cr from '../images/cr.svg';
 import social from './social.json';
-import { Header } from './Header';
+//import { Header } from './Header';
+
+const Wrapper = bstyled.div`
+	padding-bottom: 4rem;
+	background-image: url('../illustrations/overlay.svg');
+	background-size: 40%;
+	background-position: right top;
+	background-repeat: no-repeat;
+`
+
+const FooterWrapper = bstyled.div`
+	padding: 28rem 0 4rem 0;
+	background-image: url('../illustrations/footer.svg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	@media (max-width: 1960px) {
+		padding: 14rem 0 4rem;
+	}
+`
+
+const Flex = bstyled.div`
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	@media (max-width: 680px) {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+`
+
+const Links = bstyled.div`
+	display: flex;
+	align-items: center;
+	a {
+		margin: 0 0.5rem;
+		img {
+			margin: 0;
+		}
+		&:first-child,
+		&:last-child {
+			margin: 0;
+		}
+	}
+`
+
+const FooterDetails = bstyled.div`
+	line-height: 150%
+	@media (max-width: 680px) {
+		margin-bottom: 2rem;
+	}
+	h2 {
+		font-weight: bold;
+	}
+`
+
+const IntroWrapper = bstyled.div`
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	@media (max-width: 960px) {
+		flex-direction: column;
+	}
+`
+
+const Details = bstyled.div`
+	flex: 1;
+	@media (max-width: 960px) {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	h1 {
+		margin-bottom: 2rem;
+		font-size: 36pt;
+		color: #212121;
+		@media (max-width: 680px) {
+			font-size: 30pt;
+		}
+	}
+	h4 {
+		margin-bottom: 2.5rem;
+		font-size: 32pt;
+		font-weight: normal;
+		color: #707070;
+		@media (max-width: 680px) {
+			font-size: 26pt;
+		}
+	}
+`
+
+const Thumbnail = bstyled.div`
+	flex: 1;
+	@media (max-width: 960px) {
+		width: 100%;
+	}
+	img {
+		width: 100%;
+	}
+	svg {
+		width: 100%;
+		max-height: 600px;
+	}
+`
 
 const Container = bstyled.div`
 	max-width: 1280px;
@@ -90,7 +194,7 @@ const Footer = () => (
 const Index = ({ data }) => (
   <Layout>
     <Wrapper>
-      <Header />
+      
       <IntroWrapper as={Container}>
         <Details>
           <Title as="h2" size="large">
@@ -111,7 +215,7 @@ const Index = ({ data }) => (
   </Layout>
 );
 
-
+//<Header />
 
     // <Wrapper>
       

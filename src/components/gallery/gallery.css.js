@@ -17,4 +17,8 @@ export const Container = styled.div`
   ${MEDIA.TABLET`
     display: block;
   `};
+
+  @media (max-width: 1280px) {
+    display: block;
+  }
 `;

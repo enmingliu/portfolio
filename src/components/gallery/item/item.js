@@ -1,19 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
-import { Title, Copy } from './item.css';
+import { Title, Copy, Card, Thumb, Line, DateText } from './item.css';
 
-const Item = ({ title, copy, image, link }) => (
-  <figure>
-    <a href={link}>
+const Item = ({ title, copy, image, link, date }) => (
+  <Card>
+    <Thumb href={link}>
       <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
-    </a> 
-    <figcaption>
+    </Thumb>
+    <Line />
+    <Thumb href={link}>
+      <DateText>{date}</DateText>
       <Title>{title}</Title>
       <Copy>{copy}</Copy>
-    </figcaption>
-    
-  </figure>
+    </Thumb>
+
+  </Card>
 );
 
 Item.propTypes = {
@@ -21,6 +23,7 @@ Item.propTypes = {
   copy: PropTypes.string,
   image: PropTypes.object.isRequired,
   link: PropTypes.string,
+  date: PropTypes.string,
 };
 
 export default Item;

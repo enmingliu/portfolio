@@ -5,42 +5,49 @@
     "link": "https://devpost.com/software/health-on-a-cloud",
     "title": "Health on a Cloud",
     "copy": "Safety-and-security-first TeleHealth provider app packed with powerful ML analytic tools and WebSockets for live communication",
+    "date": "Sept 2019",
     "image": "../images/gallery/healthonacloud.jpg"
   },
   {
     "link": "https://devpost.com/software/deephole",
     "title": "DeepHole",
     "copy": "A crowdsourced data platform for damaged infrastructure",
+    "date": "Apr 2019",
     "image": "../images/gallery/deephole.jpg"
-  },
-  {
-    "link": "https://devpost.com/software/sincerely-ai",
-    "title": "Sincerely, AI",
-    "copy": "Deep Learning for Classification of Insincere Text",
-    "image": "../images/gallery/sincerelyai.jpg"
   },
   {
     "link": "https://github.com/eprotagoras/StencilMe",
     "title": "StencilMe",
     "copy": "App that uses the iOS ARKit API to display a user image on a flat surface of their choice; Winner of UCLA ACM Hack's Hacksprint iOS Winter 2019!",
+    "date": "Mar 2019",
     "image": "../images/gallery/logo.png"
   },
   {
     "link": "https://devpost.com/software/up2date",
     "title": "Up2Date",
     "copy": "A quick and easy way to stay up to date on relevant news",
+    "date": "Mar 2019",
     "image": "../images/gallery/uptodate.jpg"
+  },
+  {
+    "link": "https://devpost.com/software/sincerely-ai",
+    "title": "Sincerely, AI",
+    "copy": "Deep Learning for Classification of Insincere Text",
+    "date": "Feb 2019",
+    "image": "../images/gallery/sincerelyai.jpg"
   },
   {
     "link": "https://devpost.com/software/gravity-fall",
     "title": "Gravity Fall",
     "copy": "Gravity Falls is a platform game where our main protagonists, Red and Ned, can defy gravity; Winner of Hack on the Hill V Best Game!",
+    "date": "Nov 2018",
     "image": "../images/gallery/sunny.jpg"
   },
   {
     "link": "https://github.com/eprotagoras/SpaceShump",
     "title": "SpaceShump",
     "copy": "Space-themed Shoot-'em-up Java Applet",
+    "date": "Oct 2017",
     "image": "../images/gallery/spaceshump.png"
   }]
 }

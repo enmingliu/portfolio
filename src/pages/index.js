@@ -11,7 +11,6 @@ import marked from 'marked';
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import dimensions from "styles/dimensions";
-//import { Wrapper, IntroWrapper, Details, Thumbnail, FooterWrapper, Flex, Links, FooterDetails } from './styles';
 import bstyled from 'styled-components';
 import Cr from '../images/cr.svg';
 import social from './social.json';
@@ -265,6 +264,7 @@ export const query = graphql`
         link
         title
         copy
+        date
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {

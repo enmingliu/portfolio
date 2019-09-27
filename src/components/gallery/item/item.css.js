@@ -30,8 +30,14 @@ export const Card = styled.figure`
   border: 1px solid #dcdee4;
   border-radius: 6px;
   transition: all .25s ease-out;
+  img {
+    transition: 0.8s !important;
+  }
   :hover {
     border: 1px solid #414141;
+    img {
+      transform: scale(1.25);
+    }
   }
 `;
 

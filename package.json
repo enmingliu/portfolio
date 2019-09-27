@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-universal",
+  "name": "bill-liu",
   "license": "MIT",
-  "author": "Fabian Schultz <desk@fabianschultz.com>",
+  "author": "Bill Liu <enmingliu@ucla.edu>",
   "scripts": {
     "develop": "gatsby develop",
     "serve": "gatsby serve",

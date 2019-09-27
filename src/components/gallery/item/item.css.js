@@ -1,11 +1,19 @@
 import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
+import colors from "styles/colors";
 
 export const Title = styled.span`
-  display: block;
+  display: inline-block;
   font-size: 2rem;
   font-weight: 500;
   margin: 1rem 2rem 1rem;
+  transition: all 100ms ease-in-out;
+  text-decoration: none;
+  color: ${colors.blue500};
+  :hover {
+    color: ${colors.blue600};    
+    background-color: ${colors.blue200};
+  }
 `;
 
 export const Copy = styled.p`

@@ -162,3 +162,7 @@ module.exports = {
 ## Author
 
 * Fabian Schultz ([@fschultz_](https://twitter.com/fschultz_)) - [Stink Studios](https://stinkstudios.com)
+
+## Owner
+
+* Bill Liu

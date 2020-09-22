@@ -137,7 +137,7 @@ const Head = ({
       type="image/png"
     />
 
-    <link
+    {/* <link
       href="/icons/favicon-32x32.png"
       rel="icon"
       sizes="32x32"
@@ -148,7 +148,8 @@ const Head = ({
       rel="icon"
       sizes="16x16"
       type="image/png"
-    />
+    /> */}
+    <link href="/icons/favicon.ico" rel="con" type="image/png" />
     <link href="/icons/favicon.ico" rel="shortcut icon" type="image/png" />
 
     <script type="application/ld+json">

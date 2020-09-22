@@ -149,6 +149,7 @@ const Head = ({
       sizes="16x16"
       type="image/png"
     />
+    <link href="/icons/favicon.ico" rel="shortcut icon" type="image/png" />
 
     <script type="application/ld+json">
       {JSON.stringify(

@@ -40,9 +40,9 @@ const Wrapper = styled.div`
 
 const NavbarLinks = ({ desktop }) => (
 	<Wrapper desktop={desktop}>
-		<a href="../Bill_Liu_Formal_Resume_Oct_2019.pdf">Resume</a>
+		<a href="../f20_resume_bill_liu.pdf">Resume</a>
 		<AnchorLink href="#projects">Projects</AnchorLink>
-		<a href="https://github.com/eprotagoras">Github</a>
+		<a href="https://github.com/SWEnmi">Github</a>
 	</Wrapper>
 )
 

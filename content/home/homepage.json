@@ -1,7 +1,36 @@
 {
   "title": "Home",
   "content": "intro.md",
-  "gallery": [{
+  "gallery": [
+    {
+      "link": "https://github.com/lablueprint",
+      "title": "LA Blueprint",
+      "copy": "React-Native mobile application and JavaScript web console built for a non-profit, Project for Torture Victims; Designed to provide information, resources, and a forum to facilitate communication between staff, asylum seekers, and refugees",
+      "date": "Jan 2020 - Present",
+      "image": "../images/gallery/blueprint_img.png"
+    },
+    {
+      "link": "https://devpost.com/software/phoenix-pandemic-community-spread-tracker-visualizer",
+      "title": "Phoenix - Pandemic Community Spread Tracker & Visualizer",
+      "copy": "A pandemic community spread tracker & visualizer, with a native iOS application as a self-reporting tool, and web application as the visualization platform",
+      "date": "Apr 2020",
+      "image": "../images/gallery/phoenix.jpg"
+    },
+    {
+      "link": "https://devpost.com/software/healthier-nfck7s",
+      "title": "health.ai",
+      "copy": "Web and native iOS application that leverages machine learning to recommend patient tests; Winner of Most Energy Efficient/Sustainable Energy Hack at TreeHacks 2020!",
+      "date": "Feb 2020",
+      "image": "../images/gallery/health-ai.jpg"
+    },
+  {
+    "link": "https://apps.apple.com/us/app/id1473404027",
+    "title": "Radius - Who's in your Circle?",
+    "copy": "Location-based social media app, focused on facilitating real human connection with the people that you pass by on a day-to-day basis",
+    "date": "Jun 2019 - Jun 2020",
+    "image": "../images/gallery/radius_img.png"
+  },  
+  {
     "link": "https://devpost.com/software/health-on-a-cloud",
     "title": "Health on a Cloud",
     "copy": "Safety-and-security-first TeleHealth provider app packed with powerful ML analytic tools and WebSockets for live communication",
@@ -16,7 +45,7 @@
     "image": "../images/gallery/deephole.jpg"
   },
   {
-    "link": "https://github.com/eprotagoras/StencilMe",
+    "link": "https://github.com/SWEnmi/StencilMe",
     "title": "StencilMe",
     "copy": "App that uses the iOS ARKit API to display a user image on a flat surface of their choice; Winner of UCLA ACM Hack's Hacksprint iOS Winter 2019!",
     "date": "Mar 2019",
@@ -44,7 +73,7 @@
     "image": "../images/gallery/sunny.jpg"
   },
   {
-    "link": "https://github.com/eprotagoras/SpaceShump",
+    "link": "https://github.com/SWEnmi/SpaceShump",
     "title": "SpaceShump",
     "copy": "Space-themed Shoot-'em-up Java Applet",
     "date": "Oct 2017",

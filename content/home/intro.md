@@ -1,3 +1,3 @@
-Hi, I'm Bill! I'm an undergraduate student at [UCLA](http://www.ucla.edu/) studying [Computer Science](https://www.cs.ucla.edu/). I'm also a software engineering 
-intern at [InTouch Health](https://intouchhealth.com/) and an iOS developer for UCLA-based startup [Radius](https://apps.apple.com/us/app/id1473404027). This 
-website is built with [Gatsby](https://www.gatsbyjs.org/) and is deployed with [Netlify](https://www.netlify.com/). Check out some of my projects below!
+Hi, I'm Bill! I'm an undergraduate student at [UCLA](http://www.ucla.edu/) studying [Computer Science](https://www.cs.ucla.edu/). I was a software engineering
+intern at [Facebook](https://www.facebook.com/) and an iOS developer intern at [InTouch Health](https://intouchhealth.com/). I'm also an officer for 
+[ACM ICPC](https://www.uclaacm.com/) at UCLA and a mentorship chair at [UCLA UPE](https://upe.seas.ucla.edu/)! Check out some of my projects below!
